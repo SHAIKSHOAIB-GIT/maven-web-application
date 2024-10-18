@@ -86,6 +86,14 @@
             <li>Developed a multithreaded chatroom application that supports multiple clients using Python sockets.</li>
             <li>Implemented real-time communication between server and clients with threading for handling concurrent connections.</li>
         </ul>
+        
+        <h3>MAVE Web Application</h3>
+        <p><em>Java, Spring Boot, Jenkins</em></p>
+        <ul>
+            <li>Created a web application using Java and Spring Boot, implementing RESTful APIs for dynamic content.</li>
+            <li>Deployed the application on AWS using Jenkins for continuous integration and continuous deployment (CI/CD).</li>
+            <li>Configured Jenkins pipelines to automate build, test, and deployment processes, ensuring smooth updates.</li>
+        </ul>
     </section>
 
     <section class="section">
