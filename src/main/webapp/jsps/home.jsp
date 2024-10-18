@@ -72,27 +72,27 @@
     <section class="section">
         <h2>SKILLS</h2>
         <ul>
-            <li>Languages: Python, Shell Scripting, SQL</li>
+            <li>Languages: Python, Shell Scripting</li>
             <li>Operating Systems: Linux, Windows</li>
-            <li>Tools: GIT, GitHub</li>
+            <li>Tools: GIT, GitHub, Jenkins</li>
+            <li>DataBases: Relational database(SQL)</li>
         </ul>
     </section>
 
     <section class="section">
-        <h2>PROJECTS</h2>
-        <h3>Chatroom Application</h3>
-        <p><em>Python, Socket Programming</em></p>
-        <ul>
-            <li>Developed a multithreaded chatroom application that supports multiple clients using Python sockets.</li>
-            <li>Implemented real-time communication between server and clients with threading for handling concurrent connections.</li>
-        </ul>
-        
         <h3>MAVE Web Application</h3>
         <p><em>Java, Spring Boot, Jenkins</em></p>
         <ul>
             <li>Created a web application using Java and Spring Boot, implementing RESTful APIs for dynamic content.</li>
             <li>Deployed the application on AWS using Jenkins for continuous integration and continuous deployment (CI/CD).</li>
             <li>Configured Jenkins pipelines to automate build, test, and deployment processes, ensuring smooth updates.</li>
+        </ul>
+        <h2>PROJECTS</h2>
+        <h3>Chatroom Application</h3>
+        <p><em>Python, Socket Programming</em></p>
+        <ul>
+            <li>Developed a multithreaded chatroom application that supports multiple clients using Python sockets.</li>
+            <li>Implemented real-time communication between server and clients with threading for handling concurrent connections.</li>
         </ul>
     </section>
 
@@ -108,9 +108,9 @@
     <section class="section">
         <h2>ACHIEVEMENTS/HOBBIES</h2>
         <ul>
+            <li>RHCSA (Red Hat Certified System Administrator) certification!</li>
             <li>Intermediate SQL Certificate by HackerRank</li>
             <li>Python (Basic) Certificate by HackerRank</li>
-            <li>2nd Rank - Cloud Project Presentation Competition</li>
         </ul>
     </section>
 </body>
