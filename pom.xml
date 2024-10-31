@@ -7,14 +7,9 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>Maven-web--application</name>
 
 	<description>Maven Web Project for Java Project</description>
-
-	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://</url>
-	</organization>
 
 	<properties>
 		<jdk.version>17</jdk.version>
@@ -94,14 +89,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Nexus Repository</name>
-	      <url>http://</url>
+	      <name>maven-release</name>
+	      <url>http://65.0.205.95:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Snapshot Nexus Repository </name>
-	      <url>http://</url>
+	      <name>maven-snapshots</name>
+	      <url>http://65.0.205.95:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
@@ -127,7 +122,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/Maven-web--application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -140,7 +135,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>Maven-web--application</wtpContextName>
 				</configuration>
 			</plugin>
 			
