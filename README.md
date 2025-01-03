@@ -36,3 +36,52 @@ Follow these steps to set up and run the project locally:
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/SHAIKSHOAIB-GIT/maven-web-application.git
+
+2. **Navigate to the project directory:**
+```bash
+cd maven-web-application
+
+3. **Build the project using Maven:**
+```bash
+mvn clean install
+
+4. **Run the application:**
+```bash
+mvn spring-boot:run
+Replace with the appropriate command if not using Spring Boot.
+
+Access the application: Open your browser and navigate to http://localhost:8080/.
+
+AWS Deployment
+The application is deployed on AWS, utilizing services such as EC2 for hosting and S3 for storage. Deployment is managed through Jenkins, ensuring seamless updates and scalability.
+
+CI/CD Pipeline
+A robust CI/CD pipeline is implemented using Jenkins to automate the build, test, and deployment processes:
+
+Continuous Integration (CI):
+
+Code Integration: Upon code commits to the GitHub repository, Jenkins triggers the build process.
+Automated Testing: Executes unit and integration tests to validate code changes.
+Continuous Deployment (CD):
+
+Artifact Deployment: Successful builds are deployed to AWS EC2 instances.
+Monitoring: Post-deployment monitoring ensures application stability.
+This automation enhances development efficiency and reduces manual intervention, leading to faster release cycles.
+
+Project Structure
+The project follows the standard Maven directory layout:
+
+bash
+Copy code
+maven-web-application/
+├── src/
+│   ├── main/
+│   │   ├── java/          # Application source code
+│   │   └── resources/     # Configuration files and templates
+│   └── test/
+│       ├── java/          # Test source code
+│       └── resources/     # Test resources
+├── .gitignore
+├── Jenkinsfile            # CI/CD pipeline configuration
+├── pom.xml                # Maven project descriptor
+└── README.md
