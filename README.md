@@ -38,16 +38,16 @@ Follow these steps to set up and run the project locally:
    git clone https://github.com/SHAIKSHOAIB-GIT/maven-web-application.git
 
 2. **Navigate to the project directory:**
-```bash
-cd maven-web-application
+   ```bash
+   cd maven-web-application
 
 3. **Build the project using Maven:**
-```bash
-mvn clean install
+   ```bash
+      mvn clean install
 
 4. **Run the application:**
-```bash
-mvn spring-boot:run
+   ```bash
+   mvn spring-boot:run
 Replace with the appropriate command if not using Spring Boot.
 
 Access the application: Open your browser and navigate to http://localhost:8080/.
