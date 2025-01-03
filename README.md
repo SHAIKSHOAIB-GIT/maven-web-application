@@ -53,7 +53,7 @@ Replace with the appropriate command if not using Spring Boot.
 Access the application: Open your browser and navigate to http://localhost:8080/.
 
 AWS Deployment
-The application is deployed on AWS, utilizing services such as EC2 for hosting and S3 for storage. Deployment is managed through Jenkins, ensuring seamless updates and scalability.
+The application is deployed on AWS, utilizing services such as EC2 for hosting. Deployment is managed through Jenkins, ensuring seamless updates and scalability.
 
 CI/CD Pipeline
 A robust CI/CD pipeline is implemented using Jenkins to automate the build, test, and deployment processes:
