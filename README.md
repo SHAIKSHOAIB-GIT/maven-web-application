@@ -17,7 +17,6 @@ This project is a Maven-based web application developed to demonstrate [insert p
 
 - **AWS Deployment:** The application is hosted on Amazon Web Services, leveraging its scalability and reliability.
 - **CI/CD Pipeline:** Automated build, test, and deployment processes using Jenkins.
-- **Feature 3:** [Brief description]
 
 ## Prerequisites
 
