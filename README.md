@@ -70,8 +70,7 @@ This automation enhances development efficiency and reduces manual intervention,
 Project Structure
 The project follows the standard Maven directory layout:
 
-bash
-Copy code
+```bash
 maven-web-application/
 ├── src/
 │   ├── main/
